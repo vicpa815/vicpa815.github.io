@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>My Cool Website</title>
+    <title>Välkommen</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
