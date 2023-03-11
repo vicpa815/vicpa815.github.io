@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Välkommen</title>
+    <h1> Välkommen </h1> 
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
