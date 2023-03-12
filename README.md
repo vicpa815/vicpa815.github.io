@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+
 <html>
   <head>
-    <h1> Välkommen </h1> 
+    <h1> Welcome</h1> 
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -36,7 +36,7 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 My Cool Website. All rights reserved.</p>
+      <p>&copy; 2023 vicpa815. All rights reserved.</p>
     </footer>
   </body>
 </html>
