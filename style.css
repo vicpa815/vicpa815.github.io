@@ -1,0 +1,26 @@
+/* This is a comment */
+
+/* Target all h1 elements */
+h1 {
+    color: blue;
+    font-size: 24px;
+  }
+  
+  /* Target all paragraphs within the class "content" */
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Target all links */
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* Target all images within the class "featured" */
+  .featured img {
+    border: 1px solid black;
+    max-width: 100%;
+  }
+  
