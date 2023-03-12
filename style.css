@@ -1,5 +1,10 @@
 /* This is a comment */
 
+
+body {
+    background : blue;
+}
+
 /* Target all h1 elements */
 h1 {
     color: blue;
