@@ -1,1 +1,142 @@
-g
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f4f4f9;
+      padding: 0 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      overflow: hidden;
+      padding: 0 20px;
+    }
+
+    header {
+      background: #0078D4;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    .section {
+      margin: 20px 0;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+      color: #0078D4;
+    }
+
+    .skills ul, .projects ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .skills ul li, .projects ul li {
+      background: #eaf3ff;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .projects ul li {
+      cursor: pointer;
+    }
+
+    .projects ul li:hover {
+      background: #0078D4;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      background: #0078D4;
+      color: #fff;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>Software Developer | AI Enthusiast | Open Source Contributor</p>
+  </header>
+
+  <div class="container">
+    <section class="section bio">
+      <h2>About Me</h2>
+      <p>I am a passionate software developer specializing in web development and artificial intelligence. I enjoy building innovative projects and constantly learning new technologies.</p>
+    </section>
+
+    <section class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, C#, .NET</li>
+        <li>Vue.js, React</li>
+        <li>Godot, Game Development</li>
+        <li>Machine Learning, Reinforcement Learning</li>
+      </ul>
+    </section>
+
+    <section class="section projects">
+      <h2>Projects</h2>
+      <ul>
+        <li onclick="showProjectDetails('2D Grid-Based Navigation')">2D Grid-Based Navigation AI</li>
+        <li onclick="showProjectDetails('Rocket Reinforcement Learning')">Rocket RL (Reinforcement Learning)</li>
+        <li onclick="showProjectDetails('Chat Application')">WPF Chat Application</li>
+        <li onclick="showProjectDetails('Personal Portfolio')">Personal Portfolio</li>
+      </ul>
+    </section>
+
+    <section class="section education">
+      <h2>Education</h2>
+      <p>Bachelor's in Computer Science, XYZ University (2020 - 2024)</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    function showProjectDetails(projectName) {
+      alert(`Details about the project: ${projectName}`);
+    }
+  </script>
+</body>
+</html>
